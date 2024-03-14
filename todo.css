@@ -1,0 +1,29 @@
+body{
+    background-color: beige;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+#inputField{
+    border:1px solid black;
+    border-radius: 30px;
+    width:200px;
+    height:25px;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+#addToDo{
+    border:2px solid black;
+    border-radius: 50px;
+    height:30px;
+    color:white;
+    background-color:black;
+    cursor: pointer;
+}
+#addToDo:hover{
+    background-color: rgba(41, 63, 89, 0.477);
+}
+#toDoContainer{
+    font-size: 25px;
+}
